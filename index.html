@@ -3,36 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="My CSS Practice Page">
-    <title>Document</title> <Style>h2 {color:pink;}</Style>
+    <title>Document</title> <Style> 
+        
+        .navigation {
+            background-color: beige;
+            padding: 0px;
+            border: solid blue;
+            margin-bottom: 100px;
+        
+        }
+        .navigation ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+
+
+        }
+        .navigation li {
+            list-style: none;
+            padding: 5px;
+        }
+        h1 {
+            color:mediumslateblue;
+        }
+        body {
+            background-color: darksalmon;
+        }
+        h2 {
+            color:mediumslateblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 700;
+            text-align:center;
+        }
+        .Feature-box {
+            background-color: beige;
+            text-align: center;
+            padding: 20px;
+            border: dashed blue;
+        }
+        h3 {
+            color:mediumslateblue;
+            font-family: 'Courier New', Courier, monospace; 
+
+            
+        }
+        .Things-liked {
+            text-align: center;
+    
+        }
+        .Things-liked ul {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Things-liked li {
+    width: 100px;
+    text-align: center;
+
+}
+       
+    </Style>
 </head>
+<body>
 <main>
-<header>My Websight</header>
-<h1>A Simple CSS Practice Page  </h1>
+<header>
+<h3>A Simple CSS Practice </h3>
+<h2>My Websight</h2>
+
 <p>This is a short introduction paragraph about the topic of the website.</p>
 
-<nav>
+<div><nav class="navigation">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Favorites</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
-</nav>
-
+</nav></div></header>
 <section>
-<div><h2>Featured Area</h2>
+<div class="Feature-box"><h2>Featured Area</h2>
 <p>paragraph here.</p></div>
 </section>
-<section><h2>Things I like</h2>
+<section class="Things-liked"><h3>Things I like</h3>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
 </section>
-<body>
+
 <p></p>    
-</body>
+
 <footer>Created by Chalyse Smith</footer>
 </main>
+</body>
 </html>
