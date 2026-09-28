@@ -4,46 +4,53 @@
     <meta charset="UTF-8">
     <meta name="My CSS Practice Page">
     <title>Document</title> <Style> 
+        
+        h1 {
+            color:mediumslateblue;
+            Text-align: center;
+        }
+        
+        h2 {
+            color:mediumslateblue;
+            font-family:'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 700;
+            text-align:center;
+        } 
+        h3 {
+            color:mediumslateblue;
+            font-family: 'Courier New', Courier, monospace; 
+            Text-align: center;
+        }
+            
+        body {
+            background-color: rgba(225, 186, 172, 0.908);
+        }
         .aboutweb {
-             color:mediumslateblue;
+            color:mediumslateblue;
             font-family: 'Courier New', Courier, monospace;
             font-size: 15px;
             font-weight: 700;
             text-align:center;
     }
-        
         .navigation {
             background-color: beige;
             padding: 0px;
             border: solid blue;
-            margin-bottom: 100px;
+            margin-bottom: 30px;
         
         }
         .navigation ul {
             display: flex;
             justify-content: center;
-            padding: 0;
+            padding: 10px;
             margin: 0;
-
-
         }
+    
         .navigation li {
             list-style: none;
-            padding: 5px;
-        }
-        h1 {
-            color:mediumslateblue;
-            Text-align: center;
-        }
-        body {
-            background-color: rgba(225, 186, 172, 0.908);
-        }
-        h2 {
-            color:mediumslateblue;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-            font-weight: 700;
-            text-align:center;
+            padding: 10px;
+        
         }
         .Welcome {
           display: flex; 
@@ -56,16 +63,18 @@
             padding: 20px;
             border: dashed blue;
             font-family:'Courier New', Courier, monospace;
+            color: mediumslateblue;
+            font-weight: 700;
+            margin-top: 30px;
 
-        }
-        h3 {
-            color:mediumslateblue;
-            font-family: 'Courier New', Courier, monospace; 
-            Text-align: center;
-            
         }
         .Things-liked {
             text-align: center;
+            color:mediumslateblue;
+            font-weight: 700;
+            flex-direction: column;
+            justify-content: center;
+
     
         }
         .Things-liked ul {
@@ -74,46 +83,55 @@
             align-items: center;
             flex-direction: column;
 
-}
+        }
         .Things-liked li {
             width: 100px;
-            text-align: center;
-
-}
+            text-align:left;
+        }
+        .Things-liked ul li {
+            list-style: disc;
+            padding: 5px;
+        }
         .created-by {
             text-align: center;
-
-
-
+            border-top: 1px solid blue; 
         }
+        footer {
+                color:mediumslateblue;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 15px;
+                font-weight: 700;
+                text-align:center;
+                padding: 20px;
+     }
+
        
     </Style>
 </head>
 <body>
 <main>
 <header>
-<h3>A Simple CSS Practice </h3>
 <h2>My Websight</h2>
+<h3>A Simple CSS Practice </h3>
 
-<p class="aboutweb">This website is for individuals who want to keep their hair healthy and looking good. I will provide tips and tricks to help you maintain your hair.</p>
-    <div><nav class="navigation">
+<nav class="navigation">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Favorites</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
-</nav></div></header>
+</nav></header>
 <div class="Welcome"><h1>Welcome to my website</h1></div>
-<section>
+<p class="aboutweb">This website is for individuals who want to keep their hair healthy and looking good. Our team will provide tips and tricks to help you maintain your hair.</p><section>
 <div class="Feature-box"><h2>Featured Area</h2>
-<p>Your hair is important to your overall appearance and confidence.If you neglect it, you may experience hair loss, breakage, or other issues. Keep your hair healthy and looking good with our tips and tricks.</p></div>
+<p>Your hair is important to your overall appearance and confidence.If you neglect it, you may experience hair loss, breakage, or other issues. Keep your hair healthy and looking good with our tip of the day.</p></div>
 </section>
 <section class="Things-liked"><h3>Things I like</h3>
     <ul>
-        <li>Hair Products</li>
+        <li>Tip of the Day</li>
         <li>Healthy Hair</li>
-        <li>Hairdos</li>
+        <li>Hair Products</li>
     </ul>
 </section>
 <div class="created-by">
