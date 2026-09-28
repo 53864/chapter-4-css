@@ -32,7 +32,7 @@
             font-size: 15px;
             font-weight: 700;
             text-align:center;
-    }
+        }
         .navigation {
             background-color: beige;
             padding: 0px;
@@ -50,12 +50,24 @@
         .navigation li {
             list-style: none;
             padding: 10px;
-        
         }
-        .Welcome {
-          display: flex; 
-          justify-content: center; 
-          align-items: center;
+        h1 {
+            color:mediumslateblue;
+            text-align: center;
+        }
+        body {
+            background-color: darksalmon;
+        }
+        .introduction {
+            text-align: center;
+        }
+        h2 {
+            color:mediumslateblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            font-weight: 700;
+            text-align:center;
+        }
         }
         .Feature-box {
             background-color: beige;
@@ -66,7 +78,13 @@
             color: mediumslateblue;
             font-weight: 700;
             margin-top: 30px;
-
+        }
+        h3 {
+            color:mediumslateblue;
+            font-family: 'Courier New', Courier, monospace; 
+            text-align: center;
+            font-size: larger;
+            font-weight:bolder;
         }
         .Things-liked {
             text-align: center;
@@ -78,15 +96,15 @@
     
         }
         .Things-liked ul {
-            display: flex; 
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
         }
         .Things-liked li {
             width: 100px;
-            text-align:left;
+            text-align: center;
         }
         .Things-liked ul li {
             list-style: disc;
@@ -103,27 +121,29 @@
                 font-weight: 700;
                 text-align:center;
                 padding: 20px;
-     }
-
+        }
        
     </Style>
 </head>
 <body>
 <main>
 <header>
+<h3>A Simple CSS Practice Page </h3>
 <h2>My Websight</h2>
 <h3>A Simple CSS Practice </h3>
 
-<nav class="navigation">
+<div><nav class="navigation">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
     <li><a href="#">Favorites</a></li>
     <li><a href="#">Contact</a></li>
   </ul>
-</nav></header>
+</nav></div></header>
 <div class="Welcome"><h1>Welcome to my website</h1></div>
-<p class="aboutweb">This website is for individuals who want to keep their hair healthy and looking good. Our team will provide tips and tricks to help you maintain your hair.</p><section>
+<p class="aboutweb">This website is for individuals who want to keep their hair healthy and looking good. Our team will provide tips and tricks to help you maintain your hair.</p>
+<p class="introduction">This is a short introduction paragraph about the topic of the website.</p>
+<section>
 <div class="Feature-box"><h2>Featured Area</h2>
 <p>Your hair is important to your overall appearance and confidence.If you neglect it, you may experience hair loss, breakage, or other issues. Keep your hair healthy and looking good with our tip of the day.</p></div>
 </section>
@@ -134,9 +154,10 @@
         <li>Hair Products</li>
     </ul>
 </section>
-<div class="created-by">
+
+<p></p>    
+
 <footer>Created by Chalyse Smith</footer>
-</div> 
 </main>
 </body>
 </html>
