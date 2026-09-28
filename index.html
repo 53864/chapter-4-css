@@ -4,13 +4,6 @@
     <meta charset="UTF-8">
     <meta name="My CSS Practice Page">
     <title>Document</title> <Style> 
-        .aboutweb {
-             color:mediumslateblue;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 15px;
-            font-weight: 700;
-            text-align:center;
-    }
         
         .navigation {
             background-color: beige;
@@ -33,10 +26,13 @@
         }
         h1 {
             color:mediumslateblue;
-            Text-align: center;
+            text-align: center;
         }
         body {
-            background-color: rgba(225, 186, 172, 0.908);
+            background-color: darksalmon;
+        }
+        .introduction {
+            text-align: center;
         }
         h2 {
             color:mediumslateblue;
@@ -45,23 +41,19 @@
             font-weight: 700;
             text-align:center;
         }
-        .Welcome {
-          display: flex; 
-          justify-content: center; 
-          align-items: center;
-        }
         .Feature-box {
             background-color: beige;
             text-align: center;
             padding: 20px;
             border: dashed blue;
-            font-family:'Courier New', Courier, monospace;
-
         }
         h3 {
             color:mediumslateblue;
             font-family: 'Courier New', Courier, monospace; 
-            Text-align: center;
+            text-align: center;
+            font-size: larger;
+            font-weight:bolder;
+
             
         }
         .Things-liked {
@@ -69,34 +61,29 @@
     
         }
         .Things-liked ul {
-            display: flex; 
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
-        .Things-liked li {
-            width: 100px;
-            text-align: center;
+.Things-liked li {
+    width: 100px;
+    text-align: center;
 
 }
-        .created-by {
-            text-align: center;
-
-
-
-        }
        
     </Style>
 </head>
 <body>
 <main>
 <header>
-<h3>A Simple CSS Practice </h3>
+<h3>A Simple CSS Practice Page </h3>
 <h2>My Websight</h2>
 
-<p class="aboutweb">This website is for individuals who want to keep their hair healthy and looking good. I will provide tips and tricks to help you maintain your hair.</p>
-    <div><nav class="navigation">
+
+
+<div><nav class="navigation">
   <ul>
     <li><a href="#">Home</a></li>
     <li><a href="#">About</a></li>
@@ -104,21 +91,23 @@
     <li><a href="#">Contact</a></li>
   </ul>
 </nav></div></header>
-<div class="Welcome"><h1>Welcome to my website</h1></div>
+<h1> Welcom to my Websight</h1>
+<p class="introduction">This is a short introduction paragraph about the topic of the website.</p>
 <section>
 <div class="Feature-box"><h2>Featured Area</h2>
-<p>Your hair is important to your overall appearance and confidence.If you neglect it, you may experience hair loss, breakage, or other issues. Keep your hair healthy and looking good with our tips and tricks.</p></div>
+<p>paragraph here.</p></div>
 </section>
 <section class="Things-liked"><h3>Things I like</h3>
     <ul>
-        <li>Hair Products</li>
-        <li>Healthy Hair</li>
-        <li>Hairdos</li>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
     </ul>
 </section>
-<div class="created-by">
+
+<p></p>    
+
 <footer>Created by Chalyse Smith</footer>
-</div> 
 </main>
 </body>
 </html>
